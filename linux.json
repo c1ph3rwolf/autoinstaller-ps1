@@ -16,13 +16,13 @@
     "packages":
     [
         {
-            "install"   : "NO",
-            "name"    : "Authy Desktop",
-            "pkg_id"  : "Twilio.Authy",
-            "pkg_name" : "",
+            "install"   : "YES",
+            "name"    : "Android Debugging Bridge",
+            "pkg_id"  : "adb",
+            "pkg_name" : "adb",
             "version" : "2.3.0",
             "source"  : "winget",
-            "desc"    : "2FA Authentication App"
+            "desc"    : "Control Android From Terminal "
         },
         {
             "install"   : "NO",
@@ -46,6 +46,15 @@
             "install"   : "NO",
             "name"    : "cURL",
             "pkg_id"  : "cURL.cURL",
+            "pkg_name" : "",
+            "version" : "8.0.1",
+            "source"  : "winget",
+            "desc"    : "Browser for privacy"
+        },
+        {
+            "install"   : "NO",
+            "name"    : "cpu-x",
+            "pkg_id"  : "cpu-x",
             "pkg_name" : "",
             "version" : "8.0.1",
             "source"  : "winget",
@@ -106,13 +115,31 @@
             "desc"    : "Open-Source Encryption Tool CLI"
         },
         {
-            "install"   : "YES",
+            "install"   : "NO",
             "name"    : "Gpg4win",
             "pkg_id"  : "GnuPG.Gpg4win",
             "pkg_name" : "kleopatra",
             "version" : "4.1.0",
             "source"  : "winget",
             "desc"    : "Open-Source Encryption Tool GUI"
+        },
+        {
+            "install"   : "NO",
+            "name"    : "hcxdumptool",
+            "pkg_id"  : "hcxdumptool",
+            "pkg_name" : "kleopatra",
+            "version" : "4.1.0",
+            "source"  : "winget",
+            "desc"    : "pkg for aircrack-ng"
+        },
+        {
+            "install"   : "NO",
+            "name"    : "hcxtools",
+            "pkg_id"  : "hcxtools",
+            "pkg_name" : "kleopatra",
+            "version" : "4.1.0",
+            "source"  : "winget",
+            "desc"    : "pkg for aircrack-ng"
         },
         {
             "install"   : "NO",
